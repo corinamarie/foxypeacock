@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html ng-app="foxyApp">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>foxy peacock</title>
+
+        <!-- STYLES -->
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="/vendors/bootstrap/dist/css/bootstrap.min.css">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="/vendors/font-awesome/css/font-awesome.min.css">
+        <!-- fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Sacramento|Dawning+of+a+New+Day|Zeyada|Special+Elite|Forum|Simonetta|Oldenburg|Cherry+Swash|Flamenco|Averia+Serif+Libre|Overlock+SC|Buda:300|Glass+Antiqua|Lancelot' rel='stylesheet' type='text/css'>
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="/assets/images/fav.jpg">
+        <!-- project stylesheet -->
+        <link href="/assets/styles/style.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body ng-controller="FoxyCtrl">
+
+        <div class="main col-xs-12 container-fluid">
+            <header>
+                <a href="#home"><img class="logoImg img-responsive col-xs-5" src='/assets/images/foxy-peacock-logo-v4.png'></a>
+
+                <!-- navbar -->
+                <nav class="nav col-xs-2 col-xs-offset-4" role="navigation">
+                    <div class="container-fluid">
+                        <ul class="fpnav list-unstyled">
+                            <li><a href="#gallery">gallery</a></li>
+                            <li><a href="#services">services</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </header>
+
+            <div class="mainView">
+                <main ng-view></main>
+            </div>
+        </div>
+
+        <footer class="col-xs-12">
+            <ul class="list-unstyled col-xs-8 col-xs-offset-2">
+                <li><a href="https://twitter.com/corinamarie"><i class="fa fa-twitter fa-2x"></i></a></li>
+                <li><a href="https://instagram.com/corinamariebernstein/"><i class="fa fa-instagram fa-2x"></i></a></li>
+                <li><a href="https://www.pinterest.com/corinamarie/sensual/"><i class="fa fa-pinterest-p fa-2x"></i></a></li>
+            </ul>
+        </footer>
+
+
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
+        <script type="text/javascript" src="/vendors/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+        <script type="text/javascript" src="/assets/scripts/controller.min.js"></script>
+    </body>
+
+</html>

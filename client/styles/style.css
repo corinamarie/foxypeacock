@@ -1,0 +1,122 @@
+.main {
+    background-image: url('/assets/images/corinne-1-color.jpg');
+    background-size: cover;
+    height: 2000px;
+    width: 100%;
+    color: black;
+    font-family: "Lancelot", sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: transparent;
+}
+
+.nav {
+    background: transparent;
+    margin-top: 30%;
+
+}
+
+.fpnav {
+    padding-left: 22%;
+    color: black;
+    position: fixed;
+    float: right;
+    margin-top: -15%;
+}
+
+nav li {
+    display: block;
+    padding: 25% 6%;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+}
+
+.logoImg {
+    padding: 25px 0;
+    height: 100%;
+    margin: 5% -10%;
+    margin-left: 5%;
+}
+
+.mainView {
+    font-size: 16px;
+}
+
+.page {
+    /*border-radius: 8px;*/
+    padding: 2%;
+    background-color: rgba(184,192,198,0.3);
+}
+
+.biopic {
+    margin: 1%;
+}
+
+.bio {
+    /*color: black;*/
+    /*font-family: "Lancelot", sans-serif;*/
+    font-size: 1.25em;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.subBtn {
+    background-color: transparent;
+    border-radius: 3px;
+    border: none;
+}
+
+footer {
+    float: bottom;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: .5em;
+    color: black;
+    font-family: "Lancelot", sans-serif;
+    margin-top: -8%;
+    background-color: transparent;
+    text-align: center;
+}
+
+footer ul {
+    background-color: transparent;
+}
+
+footer li {
+    display: inline;
+    padding: 5%;
+}
+
+h4 {
+    font-size: 50%;
+    padding: 15%;
+}
+
+.register p {
+    display: block;
+    margin: 2%;
+}
+
+.galleryEmbed {
+    height: 500px;
+    width: 100%;
+}
+
+img {
+    height: 500px;
+    width: 100%;
+    border: none;
+}
